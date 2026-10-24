@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="MacBook Air M2 13 pulgadas">
+  <rect width="800" height="800" fill="#042f2e"/>
+  <circle cx="400" cy="360" r="300" fill="#14b8a6" opacity="0.12"/>
+    <rect x="190" y="170" width="420" height="270" rx="22" fill="#14b8a6"/>
+    <rect x="208" y="188" width="384" height="234" rx="10" fill="#042f2e"/>
+    <path d="M120 470 H680 L640 520 H160 Z" fill="#99f6e4"/>
+    <rect x="360" y="478" width="80" height="10" rx="5" fill="#14b8a6"/>
+  <text x="400" y="650" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700" fill="#f3f4f6">MacBook Air M2</text>
+  <text x="400" y="705" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" fill="#99f6e4">13 pulgadas</text>
+</svg>

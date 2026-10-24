@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Xiaomi Redmi Note 13">
+  <rect width="800" height="800" fill="#172554"/>
+  <circle cx="400" cy="360" r="300" fill="#3b82f6" opacity="0.12"/>
+    <rect x="270" y="130" width="260" height="470" rx="40" fill="#3b82f6"/>
+    <rect x="288" y="160" width="224" height="410" rx="24" fill="#172554"/>
+    <rect x="365" y="145" width="70" height="8" rx="4" fill="#93c5fd"/>
+    <circle cx="400" cy="365" r="60" fill="#3b82f6" opacity="0.55"/>
+  <text x="400" y="650" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700" fill="#f3f4f6">Xiaomi Redmi</text>
+  <text x="400" y="705" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" fill="#93c5fd">Note 13</text>
+</svg>
