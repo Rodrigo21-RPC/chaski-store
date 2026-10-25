@@ -27,5 +27,6 @@ El administrador agrega y quita productos; los clientes envían su pedido por Wh
 - Sin claves ni secretos en el código: clave del administrador y número de WhatsApp
   van en variables de entorno; `.env.example` lista sus nombres sin valores reales.
 - Pedir al usuario solo los datos imprescindibles.
+- Cuando te pida "cerrar la feature", ejecuta: verificar el working tree y commitear los cambios pendientes; correr tests (parar si fallan); hacer checkout de `main`; fusionar la rama de la feature con `--no-ff` y el mensaje "Merge feature NNN: <nombre>"; borrar la rama local y la rama remota correspondiente; subir `main` al remoto; y mostrar `git log --oneline --graph -10`. Si el push falla, informar el error y dejar claro qué pasos sí se completaron.
 
 Las reglas de producto viven en .specify/memory/constitution.md y el estado del producto en specs/README.md

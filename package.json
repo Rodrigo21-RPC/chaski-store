@@ -1,0 +1,35 @@
+{
+  "name": "chaski-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tienda virtual de electrónicos: catálogo de productos y pedidos por WhatsApp.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,client \"node --watch --env-file-if-exists=.env server/index.js\" \"vite\"",
+    "build": "vite build",
+    "prestart": "npm run build",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "express": "^5.3.0",
+    "multer": "^2.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "supertest": "^7.3.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5",
+    "vitest": "^4.1.11"
+  }
+}
